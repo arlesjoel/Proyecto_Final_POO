@@ -1,4 +1,4 @@
-/*package com.inventory.utils;
+package com.inventory.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -38,8 +38,8 @@ public class ConexionDB {
             }
         }
     }
-}*/
-
+}
+/*
 package com.inventory.utils;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -75,4 +75,5 @@ public class ConexionDB  {
         }catch(SQLException ex){
             Logger.getLogger(ConexionDB .class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+}
+    */
