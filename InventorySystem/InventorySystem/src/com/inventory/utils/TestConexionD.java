@@ -14,6 +14,6 @@ public class TestConexionD {
         ConexionDB.getConnection();
         
         // Cerrar la conexión (opcional, solo si quieres probar cerrar la conexión manualmente)
-        ConexionDB.closeConnection();
+        ConexionDB.close();
     }
 }

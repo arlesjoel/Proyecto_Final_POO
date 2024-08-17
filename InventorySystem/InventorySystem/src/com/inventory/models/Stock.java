@@ -15,9 +15,10 @@ public class Stock {
     private int idTransaccion;
     private int idProducto;
     private int cantidad;
-    private String tipo;
     private int idUsuario;
     private Date fechaHora;
+    
+    private Usuario usuario;
 
     // Getters y Setters
     public int getIdTransaccion() {
@@ -44,14 +45,6 @@ public class Stock {
         this.cantidad = cantidad;
     }
 
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
     public int getIdUsuario() {
         return idUsuario;
     }
@@ -67,4 +60,14 @@ public class Stock {
     public void setFechaHora(Date fechaHora) {
         this.fechaHora = fechaHora;
     }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+    
+    
 }

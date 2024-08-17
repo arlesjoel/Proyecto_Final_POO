@@ -13,11 +13,10 @@ public class Producto {
     private int idProducto;
     private String codigo;
     private String nombre;
-    private String descripcion;
     private int idCategoria;
     private int idSubcategoria;
-    private int nivelMinimo;
-    private int nivelMaximo;
+    
+    private Stock stock;
 
     // Getters y Setters
     public int getIdProducto() {
@@ -44,14 +43,6 @@ public class Producto {
         this.nombre = nombre;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     public int getIdCategoria() {
         return idCategoria;
     }
@@ -68,19 +59,13 @@ public class Producto {
         this.idSubcategoria = idSubcategoria;
     }
 
-    public int getNivelMinimo() {
-        return nivelMinimo;
+    public Stock getStock() {
+        return stock;
     }
 
-    public void setNivelMinimo(int nivelMinimo) {
-        this.nivelMinimo = nivelMinimo;
+    public void setStock(Stock stock) {
+        this.stock = stock;
     }
-
-    public int getNivelMaximo() {
-        return nivelMaximo;
-    }
-
-    public void setNivelMaximo(int nivelMaximo) {
-        this.nivelMaximo = nivelMaximo;
-    }
+    
+    
 }
